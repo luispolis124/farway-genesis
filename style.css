@@ -1,0 +1,60 @@
+:root {
+    --primary-color: #a366ff; /* Lilás Adiamanta */
+    --secondary-color: #2ecc71; /* Verde do Ícone */
+    --bg-dark: #121212;
+    --text-light: #f4f4f4;
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    padding: 50px 20px;
+    background: linear-gradient(180deg, #1e1e1e, var(--bg-dark));
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px var(--primary-color);
+}
+
+.hero {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.btn-download {
+    display: inline-block;
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: transform 0.3s;
+}
+
+.btn-download:hover {
+    transform: scale(1.1);
+}
+
+.features ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 0.8em;
+    color: #888;
+}
