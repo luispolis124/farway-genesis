@@ -3,33 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Farway Genesis - Official Wiki</title>
+    <title>Farway Genesis | Oficial</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <img src="src/main/resources/assets/farway-genesis/icon.png" alt="Farway Genesis Icon" class="logo">
-        <h1>Farway Genesis</h1>
+    <div class="glow-bg"></div>
+    
+    <nav>
+        <div class="nav-content">
+            <span class="brand">FARWAY <span>GENESIS</span></span>
+            <div class="links">
+                <a href="#features">Recursos</a>
+                <a href="https://github.com/luispolis124/farway-genesis">GitHub</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section">
+        <div class="hero-container">
+            <img src="src/main/resources/assets/farway-genesis/icon.png" alt="Icon" class="main-logo">
+            <h1>Um Novo Universo Começa Agora</h1>
+            <p class="description">Explore o Farway Genesis, uma expansão épica para o seu Minecraft! Descubra a poderosa Adiamanta, um minério místico superior ao Netherite. Crie ferramentas lendárias e utilize o Cinzel avançado para transformar seu mundo.</p>
+            <div class="actions">
+                <a href="https://modrinth.com/mod/farway-genesis" class="btn-primary">Baixar no Modrinth</a>
+            </div>
+        </div>
     </header>
 
-    <main>
-        <section class="hero">
-            <p id="description">Explore o Farway Genesis, uma expansão épica para o seu Minecraft! Descubra a poderosa Adiamanta, um minério místico superior ao Netherite. Crie ferramentas lendárias, utilize o Cinzel avançado para transformar blocos e prepare-se para enfrentar criaturas místicas em sua jornada. Um universo de novas possibilidades espera por você. Baixe agora!</p>
-            <a href="https://modrinth.com/mod/farway-genesis" class="btn-download">Baixar no Modrinth</a>
-        </section>
-
-        <section class="features">
-            <h2>Destaques</h2>
-            <ul>
-                <li>💎 **Adiamanta**: O minério mais forte do jogo.</li>
-                <li>🔨 **Cinzel**: Transformação de blocos em tempo real.</li>
-                <li>⚔️ **Equipamentos**: Durabilidade e força extremas.</li>
-            </ul>
-        </section>
-    </main>
+    <section id="features" class="features">
+        <div class="card">
+            <div class="icon-box">💎</div>
+            <h3>Adiamanta</h3>
+            <p>O minério mais resistente já descoberto, com durabilidade extrema.</p>
+        </div>
+        <div class="card">
+            <div class="icon-box">🔨</div>
+            <h3>Cinzel Místico</h3>
+            <p>Transforme blocos instantaneamente com o poder da engenharia arcana.</p>
+        </div>
+        <div class="card">
+            <div class="icon-box">⚔️</div>
+            <h3>Arsenal Épico</h3>
+            <p>Armas e ferramentas que superam os limites do Vanilla.</p>
+        </div>
+    </section>
 
     <footer>
-        <p>Desenvolvido por luispolis124 | <a href="https://github.com/luispolis124/farway-genesis">GitHub</a></p>
+        <p>&copy; 2026 luispolis124. Todos os direitos reservados.</p>
     </footer>
 
     <script src="script.js"></script>
