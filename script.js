@@ -1,13 +1,11 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const desc = document.getElementById('description');
-    console.log("Farway Genesis Site Carregado!");
+// Adiciona um efeito de parallax suave ao brilho de fundo
+document.addEventListener('mousemove', (e) => {
+    const glow = document.querySelector('.glow-bg');
+    const x = e.clientX;
+    const y = e.clientY;
     
-    // Pequena animação de brilho no ícone ao clicar
-    const logo = document.querySelector('.logo');
-    logo.addEventListener('click', () => {
-        logo.style.filter = "brightness(1.5) saturate(1.5)";
-        setTimeout(() => {
-            logo.style.filter = "none";
-        }, 500);
-    });
+    glow.style.left = x + 'px';
+    glow.style.top = y + 'px';
 });
+
+console.log("Farway Genesis: Website Modernizado!");
